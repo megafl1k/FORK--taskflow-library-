@@ -21,14 +21,20 @@ class Task {
     }
 
     // NEW: set task priority
-    setPriority(priority) {
-        const validPriorities = ['low', 'medium', 'high', 'urgent'];
-        if (validPriorities.includes(priority)) {
-            this.priority = priority;
-            return true;
-        }
+
+setPriority(priority) {
+    if (!priority || typeof priority !== 'string') {
         return false;
     }
+
+    const validPriorities = ['low', 'medium', 'high', 'urgent'];
+    if (validPriorities.includes(priority)) {
+        this.priority = priority;
+        return true;
+    }
+
+    return false;
 }
+
 
 module.exports = Task;
