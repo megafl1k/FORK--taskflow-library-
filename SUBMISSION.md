@@ -98,6 +98,7 @@ git show v1.3.0
 
 # Self-Assessment Checklist
 
+<<<<<<< HEAD
  Successfully created and configured fork
 
  Made meaningful contribution via PR
@@ -111,3 +112,12 @@ git show v1.3.0
  Analyzed different workflow strategies
 
  Documented all processes
+=======
+- [x] Successfully created and configured fork
+- [x] Made meaningful contribution via PR
+- [x] Participated in code review (both sides)
+- [x] Followed project contribution guidelines
+- [x] Created proper release with semantic versioning
+- [x] Analyzed different workflow strategies
+- [x] Documented all processes
+>>>>>>> 5e662e5 (docs: add final assignment submission)
